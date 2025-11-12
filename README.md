@@ -25,7 +25,6 @@ Studio: `/studio`
 ## Environment Variables
 
 ```
-NEXT_PUBLIC_SANITY_PROJECT_ID=69z2nvbz
 NEXT_PUBLIC_SANITY_DATASET=production
 ```
 
