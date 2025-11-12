@@ -39,4 +39,4 @@ Designed by mariohgh
 
 ---
 
-© 2024 Mario Ivanov™
+© 2025 Mario Ivanov™
