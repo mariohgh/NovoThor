@@ -32,3 +32,11 @@ NEXT_PUBLIC_SANITY_DATASET=production
 ## Deployment
 
 Deployed on Vercel with automatic builds from main branch.
+
+---
+
+Designed by mariohgh
+
+---
+
+© 2024 Mario Ivanov™
