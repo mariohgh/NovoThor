@@ -9,11 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'novothor-red': '#e31e24',
+        'novothor-red': '#C8342D',
         'novothor-dark': '#0b0c0d',
       },
       fontFamily: {
-        sans: ['var(--font-aktiv)'],
+        sans: ['aktiv-grotesk', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+      },
+      fontSize: {
+        'h-scale': 'clamp(2.5rem, 8vw, 6rem)',
       },
     },
   },

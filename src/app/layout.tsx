@@ -9,6 +9,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="stylesheet" href="https://use.typekit.net/eei4oga.css" />
+      </head>
       <body className="bg-novothor-dark text-white">{children}</body>
     </html>
   )

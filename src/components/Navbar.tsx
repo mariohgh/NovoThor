@@ -8,7 +8,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-md">
+    <nav className="navbar fixed top-0 w-full">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="hidden md:block">

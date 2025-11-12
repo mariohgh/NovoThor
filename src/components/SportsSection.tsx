@@ -18,19 +18,20 @@ export default function SportsSection() {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-          <div className="relative h-[500px]">
+        <div className="grid md:grid-cols-2 gap-8 items-center mb-16">
+          <div className="text-center">
             <Image 
               src="/images/2024-001/dunk/dunk_1086.jpg" 
               alt="Basketball player dunking"
-              fill
-              className="object-cover rounded-lg"
+              width={1086}
+              height={1920}
+              className="w-full h-auto"
             />
           </div>
-          <div>
+          <div className="text-left pt-5">
             <p className="text-3xl font-light mb-6">Half of NBA 2024 playoff semi-finalists use NovoTHOR</p>
             <p className="text-xl mb-8 opacity-80">Train harder, stay in the game longer, and return to play sooner. Used by olympic athletes, players, and teams in MLB, NBA, NHL, NFL, MLS.</p>
-            <a href="/#contact" className="inline-block bg-novothor-red px-8 py-4 rounded hover:bg-red-700 transition">Talk sports</a>
+            <a href="/#contact" className="cta-button">Talk sports</a>
           </div>
         </div>
 
@@ -42,11 +43,15 @@ export default function SportsSection() {
             { logo: '/images/logos/detroit-lions.svg', name: 'Detroit Lions' },
             { logo: '/images/logos/indiana-pacers.svg', name: 'Indiana Pacers' },
             { logo: '/images/logos/la-clippers.svg', name: 'LA Clippers' },
+            { logo: '/images/logos/nd-hawks.svg', name: 'North Dakota Hawks' },
+            { logo: '/images/logos/ohio-state.svg', name: 'The Ohio State' },
             { logo: '/images/logos/phoenix-suns.svg', name: 'Phoenix Suns' },
             { logo: '/images/logos/toronto-raptors.svg', name: 'Toronto Raptors' },
+            { logo: '/images/logos/utah-jazz-white.svg', name: 'Utah Jazz' },
+            { logo: '/images/logos/wa-commanders.svg', name: 'Washington Commanders' },
           ].map((team) => (
             <div key={team.name} className="text-center">
-              <Image src={team.logo} alt={team.name} width={80} height={80} className="mx-auto mb-2" />
+              <Image src={team.logo} alt={team.name} width={100} height={100} className="mx-auto mb-2" />
               <p className="text-xs uppercase opacity-70">{team.name}</p>
             </div>
           ))}

@@ -1,13 +1,5 @@
+@import './novothor.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer utilities {
-  .text-glow {
-    text-shadow: 0 0 20px rgba(227, 30, 36, 0.8);
-  }
-  
-  .red-glow {
-    box-shadow: 0 0 100px rgba(227, 30, 36, 0.3);
-  }
-}
